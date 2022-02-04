@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Futbolito</title>
+    <script src="main.js"></script>
+    <script>
+        window.onload = Audio_Disp;           
+    </script> 
+   
+</head>
+<body>    
+    
+    <div class="maindiv">
+        <div class="sonido"><br>
+            
+                <button id="btnStart">INICIAR</button>      
+                <button id="btnStop">PARAR</button>
+              <audio controls></audio> 
+              <audio id="adioPlay" controls ></audio>
+              <button id="snap">CANCHA</button>
+                    <video id="video" playsinline autoplay width="150" height="100"></video>
+              
+        </div>
+        
+    </div>
+        <div class="campos">
+            <canvas id="canvas" width="600px" height="360px"></canvas>
+            
+            <div class="circulo"></div>
+            <div class="cancha-izq"></div><div class="cancha-i"></div>
+            <div class="cancha-der"></div><div class="cancha-d"></div>
+        </div>
+        <div class="controles">
+            <div class="pad">
+                <button onclick="arriba();" >↑</button><br>
+                <button onclick="izquierda();" >←</button><button onclick="derecha();" >→</button><br>
+                <button onclick="abajo();" >↓</button>
+            </div>
+            <div class="bt">
+                <button onclick="arriba2();" >↑</button><br>
+                <button onclick="izquierda2();" >←</button><button onclick="derecha2();" >→</button><br>
+                <button onclick="abajo2();" >↓</button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

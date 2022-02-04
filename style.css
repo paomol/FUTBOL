@@ -1,0 +1,143 @@
+body{
+    background:linear-gradient(to right, yellow,blue,red);
+}
+
+.sonido {
+    background-color: #e73609; 
+    top: 3%;
+    margin: auto;
+    height: 180px;
+    width: 900px;
+    border-width:5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:black;
+}
+.cam {
+    background-color: rgb(104, 93, 85); 
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    border-width:5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+    padding: 5px;
+}
+
+.campos{
+    top: 40%;
+    margin: auto;
+    font:25px italic;
+    background-color: rgb(132, 209, 15);    
+    height: 360px;
+    width: 600px;
+    justify-content: center;
+    border-width:5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+}
+.controles{
+    margin: auto;
+    top:80%;
+    left: 30%;
+    font:25px italic;
+    background-color: rgb(98, 219, 219);    
+    height: 100px;
+    width: 800px;
+    border-width:5px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color:black;
+}
+.pad{
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+}
+.bt{
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+button{
+    
+    height: 25px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #9696e0;
+    border-radius: 15px;
+}
+
+.campos:after{
+  content: "";
+  border-left: 3px solid;
+  border-color: black;
+  position: absolute;
+  top :219px;
+  left :680px;
+  display:block;
+  height:334px;
+}
+
+.campos:before{
+    content: "";
+  border: 3px solid black;
+  position: absolute;
+  top :219px;
+  left :396px;
+  display:block;
+  width: 568px;
+  height:330px;
+}
+
+.circulo{
+    position: absolute;
+    top: 337px;
+    left: 634px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.cancha-der{
+    position: absolute;
+    height: 160px;
+    width: 80px;
+    top: 299px;
+    left: 396px;
+    border: 3px solid black;
+}
+
+.cancha-izq{
+    position: absolute;
+    height: 160px;
+    width: 80px;
+    top: 299px;
+    left: 884px;
+    border: 3px solid black;
+}
+
+.cancha-d{
+    position: absolute;
+    height: 100px;
+    width: 30px;
+    top: 329px;
+    left: 396px;
+    border: 3px solid black;
+}
+
+.cancha-i{
+    position: absolute;
+    height: 100px;
+    width: 30px;
+    top: 329px;
+    left: 934px;
+    border: 3px solid black;
+}
